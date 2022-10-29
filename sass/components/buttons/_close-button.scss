@@ -1,7 +1,6 @@
 .close-button {
-  display: flex;
+  @extend %align-list;
   justify-content: center;
-  align-items: center;
   padding: 0;
 
   width: 30px;

@@ -7,8 +7,8 @@
 }
 
 .header__container {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
+  
 }
 
 .footer__container {

@@ -130,8 +130,7 @@
   }
 
   &__check-icon {
-    display: flex;
-    align-items: center;
+    @extend %align-list;
     justify-content: center;
     margin-right: 7px;
     width: 16px;
